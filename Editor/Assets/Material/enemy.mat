@@ -1,0 +1,6 @@
+{
+    "albedo": "Assets/Textures\\rusty_metal_04_diff_2k.jpg",
+    "ao": "Assets/Textures\\rusty_metal_04_ao_2k.jpg",
+    "metallic": "Assets/Textures\\rusty_metal_04_metal_2k.jpg",
+    "roughness": "Assets/Textures\\rusty_metal_04_rough_2k.jpg"
+}

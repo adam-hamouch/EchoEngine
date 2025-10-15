@@ -1,0 +1,4 @@
+{
+    "vertex": "Assets/shaders/debug.vert",
+    "fragment": "Assets/shaders/debug.frag"
+}

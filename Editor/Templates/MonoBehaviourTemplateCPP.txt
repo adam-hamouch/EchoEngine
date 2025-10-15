@@ -1,0 +1,11 @@
+#include "{{ClassName}}.h"
+
+REGISTER_SCRIPT({{ClassName}})
+
+void {{ClassName}}::Start()
+{
+}
+
+void {{ClassName}}::Update()
+{
+}

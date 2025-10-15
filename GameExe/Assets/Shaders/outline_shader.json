@@ -1,0 +1,4 @@
+{
+    "vertex": "Assets/shaders/outline.vert",
+    "fragment": "Assets/shaders/outline.frag"
+}

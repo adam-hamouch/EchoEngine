@@ -1,0 +1,6 @@
+{
+    "albedo": "Assets/Textures\\Metal_albedo.jpeg",
+    "ao": "Assets/Textures\\Metal_AO.jpeg",
+    "metallic": "Assets/Textures\\Metal_metallic.jpeg",
+    "roughness": "Assets/Textures\\Metal_roughness.jpeg"
+}

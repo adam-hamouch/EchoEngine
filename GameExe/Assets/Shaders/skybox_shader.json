@@ -1,0 +1,4 @@
+{
+    "vertex": "Assets/shaders/skybox.vert",
+    "fragment": "Assets/shaders/skybox.frag"
+}

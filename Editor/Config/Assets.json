@@ -1,0 +1,37 @@
+{
+    "Materials": {
+        "default.mat": "Assets/Material\\default.mat",
+        "material_1.mat": "Assets/Material\\material_1.mat"
+    },
+    "Models": {
+        "Gun.obj": "Assets/Meshes\\Gun.obj",
+        "arena.obj": "Assets/Meshes\\arena.obj",
+        "cube.obj": "Assets/Meshes\\cube.obj",
+        "sphere.obj": "Assets/Meshes\\sphere.obj"
+    },
+    "Sounds": {
+        "water.mp3": "Assets/Sound\\water.mp3"
+    },
+    "Textures": {
+        "21.jpg": "Assets/Textures\\21.jpg",
+        "Batmobilearkham.png": "Assets/Textures\\Batmobilearkham.png",
+        "BlazeBody.png": "Assets/Textures\\BlazeBody.png",
+        "NormalMap.jpg": "Assets/Textures\\NormalMap.jpg",
+        "TexturesCom_Various0236_1_seamless_S.png": "Assets/Textures\\TexturesCom_Various0236_1_seamless_S.png",
+        "asphalt_02_diff_4k.jpg": "Assets/Textures\\asphalt_02_diff_4k.jpg",
+        "cpp.png": "Editor_Assets\\cpp.png",
+        "default.png": "Assets/Textures\\default.png",
+        "dwarf.bmp": "Assets/Textures\\dwarf.bmp",
+        "folder.png": "Editor_Assets\\folder.png",
+        "h.png": "Editor_Assets\\h.png",
+        "obj.png": "Editor_Assets\\obj.png",
+        "peter.jpg": "Assets/Textures\\peter.jpg",
+        "red.png": "Assets/Textures\\red.png",
+        "room.png": "Assets/Textures\\room.png",
+        "terre.jpg": "Assets/Textures\\terre.jpg",
+        "terre2.jpg": "Assets/Textures\\terre2.jpg",
+        "terre3.jpg": "Assets/Textures\\terre3.jpg",
+        "test.jpg": "Assets/Textures\\test.jpg",
+        "test.png": "Assets/Textures\\test.png"
+    }
+}

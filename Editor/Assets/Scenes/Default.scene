@@ -1,0 +1,671 @@
+{
+    "GameObjects": {
+        "Arena": {
+            "isActive": true,
+            "meshes": {
+                "material": "arena.mat",
+                "model": "arena.obj",
+                "render": 0
+            },
+            "parent": "Root",
+            "position": [
+                0.0,
+                -3.56101131439209,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                -0.0,
+                0.0
+            ],
+            "scale": [
+                0.44407346844673157,
+                0.20000000298023224,
+                0.4440000057220459
+            ],
+            "tag": "tag"
+        },
+        "Bullet": {
+            "isActive": false,
+            "meshes": {
+                "material": "default.mat",
+                "model": "sphere.obj",
+                "render": 0
+            },
+            "parent": "Root",
+            "position": [
+                26.175975799560547,
+                -47.14972686767578,
+                0.0
+            ],
+            "rigidBody": {
+                "collision": {
+                    "radius": 1.0,
+                    "type": "sphere"
+                },
+                "collisionCallbacksEnabled": true,
+                "motionType": 1
+            },
+            "rotation": [
+                0.0,
+                -0.0,
+                0.0
+            ],
+            "scale": [
+                0.20000000298023224,
+                0.20000000298023224,
+                0.20000000298023224
+            ],
+            "script": {
+                "name": "Bullet"
+            },
+            "tag": "Bullet"
+        },
+        "Camera": {
+            "camera": {
+                "Offset": [
+                    0.0,
+                    2.0,
+                    0.0
+                ]
+            },
+            "isActive": true,
+            "parent": "Player",
+            "position": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "tag": "Tag"
+        },
+        "Defeat": {
+            "isActive": false,
+            "parent": "Root",
+            "position": [
+                560.0,
+                600.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "tag": "Tag",
+            "text": {
+                "color": [
+                    1.0,
+                    0.0,
+                    0.0
+                ],
+                "content": "DEFEAT",
+                "scale": 1.0,
+                "x": 0.33000001311302185,
+                "y": 0.800000011920929
+            }
+        },
+        "Enemy": {
+            "isActive": true,
+            "meshes": {
+                "material": "enemy.mat",
+                "model": "enemy.obj",
+                "render": 2
+            },
+            "parent": "Root",
+            "position": [
+                0.0,
+                1.0,
+                -5.087782284363129e-08
+            ],
+            "rigidBody": {
+                "collision": {
+                    "size": [
+                        1.0,
+                        2.0,
+                        1.0
+                    ],
+                    "type": "box"
+                },
+                "collisionCallbacksEnabled": true,
+                "motionType": 2
+            },
+            "rotation": [
+                0.0,
+                -0.0,
+                0.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "script": {
+                "name": "Enemy"
+            },
+            "tag": "Enemy"
+        },
+        "GameManager": {
+            "isActive": true,
+            "parent": "Root",
+            "position": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "script": {
+                "name": "GameManager"
+            },
+            "tag": "tag"
+        },
+        "Ground": {
+            "isActive": true,
+            "parent": "Root",
+            "position": [
+                0.0,
+                -3.679243564605713,
+                0.0
+            ],
+            "rigidBody": {
+                "collision": {
+                    "size": [
+                        100.0,
+                        1.0,
+                        100.0
+                    ],
+                    "type": "box"
+                },
+                "collisionCallbacksEnabled": false,
+                "motionType": 0
+            },
+            "rotation": [
+                0.0,
+                -0.0,
+                0.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "tag": "Tag"
+        },
+        "Health": {
+            "isActive": true,
+            "parent": "Root",
+            "position": [
+                60.0,
+                750.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                -0.0,
+                0.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "tag": "tag",
+            "text": {
+                "color": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "content": "Health : 5",
+                "scale": 0.800000011920929,
+                "x": 0.05000000074505806,
+                "y": 0.8999999761581421
+            }
+        },
+        "Light": {
+            "isActive": true,
+            "light": {
+                "color": [
+                    0.5,
+                    0.5,
+                    0.5
+                ],
+                "direction": [
+                    0.0,
+                    -1.0,
+                    0.0
+                ],
+                "type": "directional"
+            },
+            "parent": "Root",
+            "position": [
+                0.0,
+                -1.5745148658752441,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                -0.0,
+                0.0
+            ],
+            "scale": [
+                1.0,
+                1.5,
+                1.0
+            ],
+            "tag": "tag"
+        },
+        "Pause": {
+            "isActive": false,
+            "parent": "Root",
+            "position": [
+                550.0,
+                550.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "tag": "tag",
+            "text": {
+                "color": [
+                    1.0,
+                    0.946915328502655,
+                    0.0
+                ],
+                "content": "PAUSE",
+                "scale": 1.0,
+                "x": 0.36000001430511475,
+                "y": 0.800000011920929
+            }
+        },
+        "Pause2": {
+            "isActive": false,
+            "parent": "Root",
+            "position": [
+                190.0,
+                200.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "tag": "tag",
+            "text": {
+                "color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "content": "Press (P) to restart",
+                "scale": 1.0,
+                "x": 0.11999999731779099,
+                "y": 0.5
+            }
+        },
+        "Player": {
+            "children": [
+                "Weapon",
+                "Camera"
+            ],
+            "isActive": true,
+            "meshes": {
+                "material": "default.mat",
+                "model": "sphere.obj",
+                "render": 0
+            },
+            "parent": "Root",
+            "position": [
+                -0.02804875560104847,
+                5.0,
+                -0.4585930109024048
+            ],
+            "rigidBody": {
+                "collision": {
+                    "radius": 1.0,
+                    "type": "sphere"
+                },
+                "collisionCallbacksEnabled": true,
+                "motionType": 2
+            },
+            "rotation": [
+                -0.14665687084197998,
+                3.499999523162842,
+                0.0
+            ],
+            "scale": [
+                0.9999978542327881,
+                1.0,
+                1.0
+            ],
+            "script": {
+                "name": "PlayerController"
+            },
+            "tag": "Player"
+        },
+        "Return": {
+            "isActive": false,
+            "parent": "Root",
+            "position": [
+                200.0,
+                350.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "tag": "tag",
+            "text": {
+                "color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "content": "Press (R) to return",
+                "scale": 1.0,
+                "x": 0.11999999731779099,
+                "y": 0.3400000035762787
+            }
+        },
+        "Score": {
+            "isActive": true,
+            "parent": "Root",
+            "position": [
+                1200.0,
+                30.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                -0.0,
+                0.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "tag": "tag",
+            "text": {
+                "color": [
+                    1.0,
+                    0.8321377038955688,
+                    0.0
+                ],
+                "content": "Score : 0",
+                "scale": 0.800000011920929,
+                "x": 0.699999988079071,
+                "y": 0.05000000074505806
+            }
+        },
+        "Shooter": {
+            "isActive": true,
+            "parent": "Weapon",
+            "position": [
+                0.0,
+                2.615346670150757,
+                -7.211359977722168
+            ],
+            "rotation": [
+                0.0,
+                -0.0,
+                0.0
+            ],
+            "scale": [
+                0.16364672780036926,
+                0.32858890295028687,
+                0.6534993052482605
+            ],
+            "script": {
+                "name": "Shooter"
+            },
+            "tag": "Shooter"
+        },
+        "Spawner": {
+            "isActive": true,
+            "meshes": {
+                "material": "spawn.mat",
+                "model": "model.dae",
+                "render": 2
+            },
+            "parent": "Root",
+            "position": [
+                -71.20600128173828,
+                -2.320858955383301,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                -0.0,
+                0.0
+            ],
+            "scale": [
+                5.0,
+                5.0,
+                5.0
+            ],
+            "script": {
+                "name": "Spawner"
+            },
+            "tag": "tag"
+        },
+        "Spawner2": {
+            "isActive": true,
+            "meshes": {
+                "material": "spawn.mat",
+                "model": "model.dae",
+                "render": 2
+            },
+            "parent": "Root",
+            "position": [
+                75.19429779052734,
+                -2.321000099182129,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                -0.0,
+                0.0
+            ],
+            "scale": [
+                5.0,
+                5.0,
+                5.0
+            ],
+            "script": {
+                "name": "Spawner"
+            },
+            "tag": "tag"
+        },
+        "Spawner3": {
+            "isActive": true,
+            "meshes": {
+                "material": "spawn.mat",
+                "model": "model.dae",
+                "render": 2
+            },
+            "parent": "Root",
+            "position": [
+                0.0,
+                -2.0,
+                70.85063934326172
+            ],
+            "rotation": [
+                0.0,
+                -0.0,
+                0.0
+            ],
+            "scale": [
+                5.0,
+                5.0,
+                5.0
+            ],
+            "script": {
+                "name": "Spawner"
+            },
+            "tag": "tag"
+        },
+        "Spawner4": {
+            "isActive": true,
+            "meshes": {
+                "material": "spawn.mat",
+                "model": "model.dae",
+                "render": 2
+            },
+            "parent": "Root",
+            "position": [
+                0.0,
+                -2.0,
+                -77.65473175048828
+            ],
+            "rotation": [
+                0.0,
+                -0.0,
+                0.0
+            ],
+            "scale": [
+                5.0,
+                5.0,
+                5.0
+            ],
+            "script": {
+                "name": "Spawner"
+            },
+            "tag": "tag"
+        },
+        "Victory": {
+            "isActive": false,
+            "parent": "Root",
+            "position": [
+                470.0,
+                600.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "tag": "Tag",
+            "text": {
+                "color": [
+                    0.03395509719848633,
+                    1.0,
+                    0.20859158039093018
+                ],
+                "content": "VICTORY !",
+                "scale": 1.0,
+                "x": 0.30000001192092896,
+                "y": 0.800000011920929
+            }
+        },
+        "Viseur": {
+            "isActive": true,
+            "parent": "Root",
+            "position": [
+                770.0,
+                330.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "tag": "tag",
+            "text": {
+                "color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "content": "O",
+                "scale": 0.5,
+                "x": 0.47999998927116394,
+                "y": 0.5199999809265137
+            }
+        },
+        "Weapon": {
+            "children": [
+                "Shooter"
+            ],
+            "isActive": true,
+            "meshes": {
+                "material": "default.mat",
+                "model": "Gun.obj",
+                "render": 2
+            },
+            "parent": "Player",
+            "position": [
+                0.7184407114982605,
+                0.04601335525512695,
+                -1.2222613096237183
+            ],
+            "rotation": [
+                0.0,
+                0.6135663986206055,
+                0.0
+            ],
+            "scale": [
+                0.4000000059604645,
+                0.4000000059604645,
+                0.20000000298023224
+            ],
+            "tag": "Weapon"
+        }
+    }
+}
