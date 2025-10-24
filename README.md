@@ -73,3 +73,80 @@ Imported resources are instantly usable across the engine
 
 ⚙️ Basic MonoBehaviour System
 A lightweight scripting system is included to support custom behaviors on GameObjects, inspired by Unity's MonoBehaviour model.
+
+Echo Engine - Gold Version
+Overview
+
+The Gold Version of Echo Engine marks a major milestone in the engine’s development, integrating advanced rendering features, real-time scripting capabilities, and a complete scene management system. This version represents the first fully-featured release, offering both creative flexibility and technical robustness.
+
+🌍 Scene Management
+
+A Scene Manager has been introduced to streamline the creation, saving, and loading of game worlds:
+
+Create, save, and load multiple scenes seamlessly.
+
+Manage GameObjects dynamically at runtime.
+
+Scenes automatically preserve hierarchy, components, and transformations.
+
+🎨 Advanced Rendering Features
+
+Echo Engine now includes multiple rendering modes and visual effects to enhance artistic control:
+
+🌀 Toon Shading
+
+Stylized, cel-shaded rendering inspired by titles like The Legend of Zelda: Wind Waker.
+
+Adjustable shadow thresholds for custom visual tone.
+
+💎 Physically-Based Rendering (PBR)
+
+Realistic materials with albedo, roughness, and metallic maps.
+
+Supports environment lighting and dynamic reflections.
+
+✨ Outline Rendering
+
+Adds stylized outlines to objects for clarity and cartoon-like aesthetics.
+
+Fully compatible with Toon and PBR materials.
+
+⚙️ Live C++ Scripting (Hot Reload)
+
+Experience real-time C++ live coding:
+
+Modify gameplay scripts while the engine is running.
+
+Automatic DLL recompilation and hot reload of updated scripts.
+
+Inspired by Unity’s workflow, with classes derived from MonoBehaviour.
+
+🧱 Physics Engine
+
+A built-in physics system now brings realism and interactivity:
+
+Rigid body simulation for dynamic objects.
+
+Colliders for spheres, boxes, and custom meshes.
+
+Gravity, mass, and friction parameters adjustable through the Inspector.
+
+☁️ Skybox & Environment
+
+Enhance scene atmosphere with Skybox rendering:
+
+Supports static and dynamic skyboxes.
+
+Custom HDR environment maps for realistic reflections.
+
+Adjustable exposure and lighting intensity.
+
+🧩 Additional Improvements
+
+Optimized rendering pipeline for higher performance.
+
+Improved Content Browser with better drag & drop feedback.
+
+Enhanced camera controls and viewport navigation.
+
+Extended serialization for resource persistence.
