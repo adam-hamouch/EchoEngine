@@ -74,7 +74,7 @@ Imported resources are instantly usable across the engine
 ⚙️ Basic MonoBehaviour System
 A lightweight scripting system is included to support custom behaviors on GameObjects, inspired by Unity's MonoBehaviour model.
 
-Echo Engine - Gold Version
+# Echo Engine - GOLD Version
 Overview
 
 The Gold Version of Echo Engine marks a major milestone in the engine’s development, integrating advanced rendering features, real-time scripting capabilities, and a complete scene management system. This version represents the first fully-featured release, offering both creative flexibility and technical robustness.
